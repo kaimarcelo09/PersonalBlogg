@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tiro+Telugu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ecd6e3;
+}
+header {
+    width: auto;
+    height: 60px;
+    position: relative;
+}
+.BlogTitle {
+    position: absolute;
+    top: 30%;
+    width: auto;
+    left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+nav {
+    width: auto; 
+    height: 50px;
+    border-top: 1px solid rgb(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style: none;
+    width: auto;
+    padding-top: 14px;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+}
+a:hover {
+    color: rgba(0, 0, 0, 0.233);
+    transition: 0.5s ease;
+    position: relative;
+    top: 1px;
+}
+.section1 {
+    width: 60%;
+    height: 400px;
+    padding: 10% 5% 5% 5%;
+    float: left;
+}
+.aboutme {
+    color:rgba(179, 116, 43, 0.562);
+    font-family: 'Tiro Telugu', serif;
+    font-size: 200%;
+}
+.bodystyle {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+aside {
+    width: 30%;
+    float: left;
+    padding-top: 100px;
+}
+.profile {
+    width: 300px;
+    padding: 10px;
+    opacity: 90%;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+}
+.section2 {
+    width: 20%;
+    float: left;
+    border: px solid;
+    padding: 6.6%;
+}
+.section2 {
+    width: 24%;
+    float: left;
+    border: px solid;
+    padding: 4.6%;
+}
+.hometown, .school, .carreer {
+    text-align: justify;
+}
+.subtitle { 
+    color:rgba(179, 116, 43, 0.562);
+    font-family: 'Tiro Telugu', serif;
+    font-size: 200%;
+}
+.clear {
+    clear: both;
+}
+.profile-gallery {
+    width: auto;
+    height: 800px;
+    background-image: url(profile_bg.jpg);
+    /* background-size: cover; */
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.profile-gallery:hover {
+    background-color: rgb(0, 0, 0, 0);
+    transition: 0.5s ease;
+}
+.profile-gallery:hover .hide {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    text-shadow: 2px 1px 1px black;
+}
+.hide {
+    display: none;
+    position: absolute;
+   top: 30%;
+   width: auto;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+} 
+ /* .overlay {
+    background-color: green;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 510px;
+} */
